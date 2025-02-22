@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-image: url(https://st3.depositphotos.com/7865540/13803/i/450/depositphotos_138030202-stock-photo-physics-concept-on-background.jpg); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#quiz {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+.option {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.option:hover {
+    background: black;
+}
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+    background-color: green;
+}
+#next {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#next:hover {
+    background-color: #218838;
+}
+
